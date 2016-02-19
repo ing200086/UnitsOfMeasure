@@ -1,0 +1,78 @@
+Start testing: Feb 19 13:33 CST
+----------------------------------------------------------
+1/1 Testing: UT_Quantity
+1/1 Test: UT_Quantity
+Command: "/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure/UT_Quantity"
+Directory: /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure
+"UT_Quantity" start time: Feb 19 13:33 CST
+Output:
+----------------------------------------------------------
+[==========] Running 26 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 26 tests from matchesExpectations/orderOfMagnitudeTester
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/0
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/0 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/1
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/1 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/2
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/2 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/3
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/3 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/4
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/4 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/5
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/5 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/6
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/6 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/7
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/7 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/8
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/8 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/9
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/9 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/10
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/10 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/11
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/11 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/12
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/12 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/13
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/13 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/14
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/14 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/15
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/15 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/16
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/16 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/17
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/17 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/18
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/18 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/19
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/19 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/20
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/20 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/21
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/21 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/22
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/22 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/23
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/23 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/24
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/24 (0 ms)
+[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/25
+[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/25 (0 ms)
+[----------] 26 tests from matchesExpectations/orderOfMagnitudeTester (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 26 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 26 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UT_Quantity" end time: Feb 19 13:33 CST
+"UT_Quantity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 19 13:33 CST

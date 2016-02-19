@@ -1,0 +1,19 @@
+# Hashes of file build rules.
+6927e89c613bbe671fd735f2196dee19 test/CMakeFiles/gmock
+ece811d52e00ff05de13a7706a29bc70 test/CMakeFiles/gmock-complete
+6927e89c613bbe671fd735f2196dee19 test/CMakeFiles/gtest
+adaabfe10fce10677bdc5e57f22db170 test/CMakeFiles/gtest-complete
+b4babbd296e444739f0a542e487b793c test/gmock/src/gmock-stamp/gmock-build
+1f2bc6f853e953e5dcf831039a15fe03 test/gmock/src/gmock-stamp/gmock-configure
+a552d92c199d1c38a4ca2211973ce2d9 test/gmock/src/gmock-stamp/gmock-download
+2b31570f761f70e021e1094937ac1ef4 test/gmock/src/gmock-stamp/gmock-install
+f65cba3b6409cbff8c1694fa517c974a test/gmock/src/gmock-stamp/gmock-mkdir
+68df564b15b6402408d0713fccb4d690 test/gmock/src/gmock-stamp/gmock-patch
+e09dd38f4d58c75b8a5dc0712aed8777 test/gmock/src/gmock-stamp/gmock-update
+e79ea99aa0e7a7aaed525e6b85d5115d test/gtest/src/gtest-stamp/gtest-build
+fa89e6ce7fee07deaa908c553a4b4d3c test/gtest/src/gtest-stamp/gtest-configure
+4c9cb8af56ee2f2bceb9e88f39d5345a test/gtest/src/gtest-stamp/gtest-download
+748d84239df04ba8f2ec26702c58f37f test/gtest/src/gtest-stamp/gtest-install
+b778a2994f96c5cee03323bdb8db80d1 test/gtest/src/gtest-stamp/gtest-mkdir
+72b6b8dab6df9c1928300c100e42ce3c test/gtest/src/gtest-stamp/gtest-patch
+7da83714fc04d925f0d1be6470ad645c test/gtest/src/gtest-stamp/gtest-update
