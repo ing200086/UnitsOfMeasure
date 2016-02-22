@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/UT_Quantity.dir/__/main.cpp.o"
-  "CMakeFiles/UT_Quantity.dir/Length/test.cpp.o"
+  "CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o"
+  "CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o"
   "UT_Quantity.pdb"
   "UT_Quantity"
 )

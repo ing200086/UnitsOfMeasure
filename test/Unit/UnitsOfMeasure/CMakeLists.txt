@@ -3,7 +3,7 @@ project (UT_Quantity C CXX)
 
 file(GLOB SRCS ${TEST_MAIN_DIR}/main.cpp
     ${PROJECT_SOURCE_DIR}/include/*.h
-    ${PROJECT_SOURCE_DIR}/Length/*.cpp
+    ${PROJECT_SOURCE_DIR}/*.cpp
 )
 
 ADD_EXECUTABLE(${PROJECT_NAME} ${SRCS})

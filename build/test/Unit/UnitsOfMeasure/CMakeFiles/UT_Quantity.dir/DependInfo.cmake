@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/Length/test.cpp" "/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o"
+  "/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestCreation.cpp" "/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o"
+  "/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestOperations.cpp" "/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o"
   "/home/daniel/Workspace/UnitsOfMeasure/test/Unit/main.cpp" "/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/__/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

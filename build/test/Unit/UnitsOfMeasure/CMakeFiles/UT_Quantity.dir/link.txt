@@ -1,1 +1,1 @@
-/usr/bin/c++    -Wall -std=gnu++0x   CMakeFiles/UT_Quantity.dir/__/main.cpp.o CMakeFiles/UT_Quantity.dir/Length/test.cpp.o  -o UT_Quantity -rdynamic ../../gtest/src/gtest-build/libgtest.a ../../gmock/src/gmock-build/libgmock.a -lpthread 
+/usr/bin/c++    -Wall -std=gnu++0x   CMakeFiles/UT_Quantity.dir/__/main.cpp.o CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o  -o UT_Quantity -rdynamic ../../gtest/src/gtest-build/libgtest.a ../../gmock/src/gmock-build/libgmock.a -lpthread 

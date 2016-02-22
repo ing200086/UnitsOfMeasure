@@ -1,78 +1,65 @@
-Start testing: Feb 19 13:33 CST
+Start testing: Feb 21 21:43 CST
 ----------------------------------------------------------
 1/1 Testing: UT_Quantity
 1/1 Test: UT_Quantity
 Command: "/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure/UT_Quantity"
 Directory: /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure
-"UT_Quantity" start time: Feb 19 13:33 CST
+"UT_Quantity" start time: Feb 21 21:43 CST
 Output:
 ----------------------------------------------------------
-[==========] Running 26 tests from 1 test case.
+[==========] Running 18 tests from 2 test cases.
 [----------] Global test environment set-up.
-[----------] 26 tests from matchesExpectations/orderOfMagnitudeTester
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/0
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/0 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/1
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/1 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/2
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/2 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/3
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/3 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/4
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/4 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/5
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/5 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/6
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/6 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/7
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/7 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/8
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/8 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/9
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/9 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/10
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/10 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/11
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/11 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/12
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/12 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/13
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/13 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/14
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/14 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/15
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/15 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/16
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/16 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/17
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/17 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/18
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/18 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/19
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/19 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/20
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/20 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/21
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/21 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/22
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/22 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/23
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/23 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/24
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/24 (0 ms)
-[ RUN      ] matchesExpectations/orderOfMagnitudeTester.AreExpected/25
-[       OK ] matchesExpectations/orderOfMagnitudeTester.AreExpected/25 (0 ms)
-[----------] 26 tests from matchesExpectations/orderOfMagnitudeTester (0 ms total)
+[----------] 10 tests from Dimensions
+[ RUN      ] Dimensions.AreDimensionallyEquivalentToItself
+[       OK ] Dimensions.AreDimensionallyEquivalentToItself (0 ms)
+[ RUN      ] Dimensions.AreDimensionallyEquivalent
+[       OK ] Dimensions.AreDimensionallyEquivalent (0 ms)
+[ RUN      ] Dimensions.AreDimensionallyNotEquivalent
+[       OK ] Dimensions.AreDimensionallyNotEquivalent (0 ms)
+[ RUN      ] Dimensions.AssignOneDimensionBasedOnOther
+[       OK ] Dimensions.AssignOneDimensionBasedOnOther (0 ms)
+[ RUN      ] Dimensions.OfEquivalentPowersCanBeAddedToProduceSameEquivalent
+[       OK ] Dimensions.OfEquivalentPowersCanBeAddedToProduceSameEquivalent (0 ms)
+[ RUN      ] Dimensions.OfNonEquivalentPowersCannotBeAdded
+[       OK ] Dimensions.OfNonEquivalentPowersCannotBeAdded (1 ms)
+[ RUN      ] Dimensions.OfEquivalentPowersCanBeSubtractedToProduceSameEquivalent
+[       OK ] Dimensions.OfEquivalentPowersCanBeSubtractedToProduceSameEquivalent (0 ms)
+[ RUN      ] Dimensions.OfNonEquivalentPowersCannotBeSubtracted
+[       OK ] Dimensions.OfNonEquivalentPowersCannotBeSubtracted (0 ms)
+[ RUN      ] Dimensions.MultipliedWillSumThePowersOfBothUnits
+[       OK ] Dimensions.MultipliedWillSumThePowersOfBothUnits (0 ms)
+[ RUN      ] Dimensions.DividedWillSubtractTheSecondFactorUnitsFromTheFirstFactor
+[       OK ] Dimensions.DividedWillSubtractTheSecondFactorUnitsFromTheFirstFactor (0 ms)
+[----------] 10 tests from Dimensions (1 ms total)
+
+[----------] 8 tests from CreateBasicDimension
+[ RUN      ] CreateBasicDimension.Unitless
+[       OK ] CreateBasicDimension.Unitless (0 ms)
+[ RUN      ] CreateBasicDimension.Length
+[       OK ] CreateBasicDimension.Length (0 ms)
+[ RUN      ] CreateBasicDimension.Mass
+[       OK ] CreateBasicDimension.Mass (0 ms)
+[ RUN      ] CreateBasicDimension.Time
+[       OK ] CreateBasicDimension.Time (0 ms)
+[ RUN      ] CreateBasicDimension.ElectricCurrent
+[       OK ] CreateBasicDimension.ElectricCurrent (0 ms)
+[ RUN      ] CreateBasicDimension.Temperature
+[       OK ] CreateBasicDimension.Temperature (0 ms)
+[ RUN      ] CreateBasicDimension.LuminousIntensity
+[       OK ] CreateBasicDimension.LuminousIntensity (0 ms)
+[ RUN      ] CreateBasicDimension.AmountOfSubstance
+[       OK ] CreateBasicDimension.AmountOfSubstance (0 ms)
+[----------] 8 tests from CreateBasicDimension (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 26 tests from 1 test case ran. (0 ms total)
-[  PASSED  ] 26 tests.
+[==========] 18 tests from 2 test cases ran. (1 ms total)
+[  PASSED  ] 18 tests.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"UT_Quantity" end time: Feb 19 13:33 CST
+"UT_Quantity" end time: Feb 21 21:43 CST
 "UT_Quantity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 19 13:33 CST
+End testing: Feb 21 21:43 CST

@@ -72,39 +72,64 @@ test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/__/main.cpp.o.provides: test
 
 test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/__/main.cpp.o.provides.build: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/__/main.cpp.o
 
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/flags.make
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o: ../test/Unit/UnitsOfMeasure/Length/test.cpp
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/flags.make
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o: ../test/Unit/UnitsOfMeasure/TestOperations.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o"
-	cd /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/UT_Quantity.dir/Length/test.cpp.o -c /home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/Length/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o"
+	cd /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o -c /home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestOperations.cpp
 
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UT_Quantity.dir/Length/test.cpp.i"
-	cd /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/Length/test.cpp > CMakeFiles/UT_Quantity.dir/Length/test.cpp.i
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UT_Quantity.dir/TestOperations.cpp.i"
+	cd /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestOperations.cpp > CMakeFiles/UT_Quantity.dir/TestOperations.cpp.i
 
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UT_Quantity.dir/Length/test.cpp.s"
-	cd /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/Length/test.cpp -o CMakeFiles/UT_Quantity.dir/Length/test.cpp.s
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UT_Quantity.dir/TestOperations.cpp.s"
+	cd /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestOperations.cpp -o CMakeFiles/UT_Quantity.dir/TestOperations.cpp.s
 
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o.requires:
-.PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o.requires
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o.requires:
+.PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o.requires
 
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o.provides: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o.requires
-	$(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o.provides.build
-.PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o.provides
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o.provides: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o.requires
+	$(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o.provides.build
+.PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o.provides
 
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o.provides.build: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o.provides.build: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o
+
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/flags.make
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o: ../test/Unit/UnitsOfMeasure/TestCreation.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o"
+	cd /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o -c /home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestCreation.cpp
+
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UT_Quantity.dir/TestCreation.cpp.i"
+	cd /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestCreation.cpp > CMakeFiles/UT_Quantity.dir/TestCreation.cpp.i
+
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UT_Quantity.dir/TestCreation.cpp.s"
+	cd /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestCreation.cpp -o CMakeFiles/UT_Quantity.dir/TestCreation.cpp.s
+
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o.requires:
+.PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o.requires
+
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o.provides: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o.requires
+	$(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o.provides.build
+.PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o.provides
+
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o.provides.build: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o
 
 # Object files for target UT_Quantity
 UT_Quantity_OBJECTS = \
 "CMakeFiles/UT_Quantity.dir/__/main.cpp.o" \
-"CMakeFiles/UT_Quantity.dir/Length/test.cpp.o"
+"CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o" \
+"CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o"
 
 # External object files for target UT_Quantity
 UT_Quantity_EXTERNAL_OBJECTS =
 
 test/Unit/UnitsOfMeasure/UT_Quantity: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/__/main.cpp.o
-test/Unit/UnitsOfMeasure/UT_Quantity: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o
+test/Unit/UnitsOfMeasure/UT_Quantity: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o
+test/Unit/UnitsOfMeasure/UT_Quantity: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o
 test/Unit/UnitsOfMeasure/UT_Quantity: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make
 test/Unit/UnitsOfMeasure/UT_Quantity: test/gtest/src/gtest-build/libgtest.a
 test/Unit/UnitsOfMeasure/UT_Quantity: test/gmock/src/gmock-build/libgmock.a
@@ -117,7 +142,8 @@ test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build: test/Unit/UnitsOfMeas
 .PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build
 
 test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/requires: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/__/main.cpp.o.requires
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/requires: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o.requires
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/requires: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o.requires
+test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/requires: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o.requires
 .PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/requires
 
 test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/clean:

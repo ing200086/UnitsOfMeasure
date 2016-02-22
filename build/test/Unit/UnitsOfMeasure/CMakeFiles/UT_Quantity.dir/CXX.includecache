@@ -6,11 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/Length/test.cpp
-string
+/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestCreation.cpp
+test.h
+/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/test.h
+
+/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/TestOperations.cpp
+test.h
+/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/test.h
+
+/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/dimension.h
+stdexcept
 -
+array
+-
+
+/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/test.h
+dimension.h
+/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/dimension.h
 gmock/gmock.h
-/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/Length/gmock/gmock.h
+/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure/gmock/gmock.h
 
 /home/daniel/Workspace/UnitsOfMeasure/test/Unit/main.cpp
 gmock/gmock.h

@@ -125,29 +125,53 @@ UT_Quantity/fast:
 	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build
 .PHONY : UT_Quantity/fast
 
-Length/test.o: Length/test.cpp.o
-.PHONY : Length/test.o
+TestCreation.o: TestCreation.cpp.o
+.PHONY : TestCreation.o
 
 # target to build an object file
-Length/test.cpp.o:
-	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.o
-.PHONY : Length/test.cpp.o
+TestCreation.cpp.o:
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.o
+.PHONY : TestCreation.cpp.o
 
-Length/test.i: Length/test.cpp.i
-.PHONY : Length/test.i
+TestCreation.i: TestCreation.cpp.i
+.PHONY : TestCreation.i
 
 # target to preprocess a source file
-Length/test.cpp.i:
-	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.i
-.PHONY : Length/test.cpp.i
+TestCreation.cpp.i:
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.i
+.PHONY : TestCreation.cpp.i
 
-Length/test.s: Length/test.cpp.s
-.PHONY : Length/test.s
+TestCreation.s: TestCreation.cpp.s
+.PHONY : TestCreation.s
 
 # target to generate assembly for a file
-Length/test.cpp.s:
-	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/Length/test.cpp.s
-.PHONY : Length/test.cpp.s
+TestCreation.cpp.s:
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestCreation.cpp.s
+.PHONY : TestCreation.cpp.s
+
+TestOperations.o: TestOperations.cpp.o
+.PHONY : TestOperations.o
+
+# target to build an object file
+TestOperations.cpp.o:
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.o
+.PHONY : TestOperations.cpp.o
+
+TestOperations.i: TestOperations.cpp.i
+.PHONY : TestOperations.i
+
+# target to preprocess a source file
+TestOperations.cpp.i:
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.i
+.PHONY : TestOperations.cpp.i
+
+TestOperations.s: TestOperations.cpp.s
+.PHONY : TestOperations.s
+
+# target to generate assembly for a file
+TestOperations.cpp.s:
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/TestOperations.cpp.s
+.PHONY : TestOperations.cpp.s
 
 __/main.o: __/main.cpp.o
 .PHONY : __/main.o
@@ -183,9 +207,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... UT_Quantity"
 	@echo "... test"
-	@echo "... Length/test.o"
-	@echo "... Length/test.i"
-	@echo "... Length/test.s"
+	@echo "... TestCreation.o"
+	@echo "... TestCreation.i"
+	@echo "... TestCreation.s"
+	@echo "... TestOperations.o"
+	@echo "... TestOperations.i"
+	@echo "... TestOperations.s"
 	@echo "... __/main.o"
 	@echo "... __/main.i"
 	@echo "... __/main.s"
