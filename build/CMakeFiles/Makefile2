@@ -145,82 +145,133 @@ clean: test/CMakeFiles/gtest.dir/clean
 # Directory level rules for directory test/Unit
 
 # Convenience name for "all" pass in the directory.
-test/Unit/all: test/Unit/UnitsOfMeasure/all
+test/Unit/all: test/Unit/PhysicalDimension/all
 .PHONY : test/Unit/all
 
 # Convenience name for "clean" pass in the directory.
-test/Unit/clean: test/Unit/UnitsOfMeasure/clean
+test/Unit/clean: test/Unit/PhysicalDimension/clean
 .PHONY : test/Unit/clean
 
 # Convenience name for "preinstall" pass in the directory.
-test/Unit/preinstall: test/Unit/UnitsOfMeasure/preinstall
+test/Unit/preinstall: test/Unit/PhysicalDimension/preinstall
 .PHONY : test/Unit/preinstall
 
 #=============================================================================
-# Directory level rules for directory test/Unit/UnitsOfMeasure
+# Directory level rules for directory test/Unit/PhysicalDimension
 
 # Convenience name for "all" pass in the directory.
-test/Unit/UnitsOfMeasure/all: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/all
-.PHONY : test/Unit/UnitsOfMeasure/all
+test/Unit/PhysicalDimension/all: test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/all
+.PHONY : test/Unit/PhysicalDimension/all
 
 # Convenience name for "clean" pass in the directory.
-test/Unit/UnitsOfMeasure/clean: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/clean
-.PHONY : test/Unit/UnitsOfMeasure/clean
+test/Unit/PhysicalDimension/clean: test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/clean
+.PHONY : test/Unit/PhysicalDimension/clean
 
 # Convenience name for "preinstall" pass in the directory.
-test/Unit/UnitsOfMeasure/preinstall:
-.PHONY : test/Unit/UnitsOfMeasure/preinstall
+test/Unit/PhysicalDimension/preinstall:
+.PHONY : test/Unit/PhysicalDimension/preinstall
 
 #=============================================================================
-# Target rules for target test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir
+# Target rules for target test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir
 
 # All Build rule for target.
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/all: test/CMakeFiles/gtest.dir/all
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/all: test/CMakeFiles/gmock.dir/all
-	$(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/depend
-	$(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build
+test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/all: test/CMakeFiles/gtest.dir/all
+test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/all: test/CMakeFiles/gmock.dir/all
+test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/all: src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/all
+	$(MAKE) -f test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/build.make test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/depend
+	$(MAKE) -f test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/build.make test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles  1 2 3
 	@echo "Built target UT_Quantity"
-.PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/all
+.PHONY : test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/all
 
 # Include target in all.
-all: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/all
+all: test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/rule: cmake_check_build_system
+test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles 19
-	$(MAKE) -f CMakeFiles/Makefile2 test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles 0
-.PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/rule
+.PHONY : test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/rule
 
 # Convenience name for target.
-UT_Quantity: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/rule
+UT_Quantity: test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/rule
 .PHONY : UT_Quantity
 
 # clean rule for target.
-test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/clean:
-	$(MAKE) -f test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/build.make test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/clean
-.PHONY : test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/clean
+test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/clean:
+	$(MAKE) -f test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/build.make test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/clean
+.PHONY : test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/clean
 
 # clean rule for target.
-clean: test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/clean
+clean: test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
-src/all:
+src/all: src/PhysicalDimension/all
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
-src/clean:
+src/clean: src/PhysicalDimension/clean
 .PHONY : src/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src/preinstall:
+src/preinstall: src/PhysicalDimension/preinstall
 .PHONY : src/preinstall
+
+#=============================================================================
+# Directory level rules for directory src/PhysicalDimension
+
+# Convenience name for "all" pass in the directory.
+src/PhysicalDimension/all: src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/all
+.PHONY : src/PhysicalDimension/all
+
+# Convenience name for "clean" pass in the directory.
+src/PhysicalDimension/clean: src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/clean
+.PHONY : src/PhysicalDimension/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/PhysicalDimension/preinstall:
+.PHONY : src/PhysicalDimension/preinstall
+
+#=============================================================================
+# Target rules for target src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir
+
+# All Build rule for target.
+src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/all:
+	$(MAKE) -f src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/build.make src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/depend
+	$(MAKE) -f src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/build.make src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles 
+	@echo "Built target libPhysicalDimension"
+.PHONY : src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/all
+
+# Include target in all.
+all: src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles 0
+.PHONY : src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/rule
+
+# Convenience name for target.
+libPhysicalDimension: src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/rule
+.PHONY : libPhysicalDimension
+
+# clean rule for target.
+src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/clean:
+	$(MAKE) -f src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/build.make src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/clean
+.PHONY : src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/clean
+
+# clean rule for target.
+clean: src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/clean
+.PHONY : clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

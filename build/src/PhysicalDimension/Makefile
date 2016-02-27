@@ -82,14 +82,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles /home/daniel/Workspace/UnitsOfMeasure/build/src/PhysicalDimension/CMakeFiles/progress.marks
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f CMakeFiles/Makefile2 src/PhysicalDimension/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/UnitsOfMeasure/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f CMakeFiles/Makefile2 src/PhysicalDimension/clean
 .PHONY : clean
 
 # The main clean target
@@ -98,69 +98,31 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f CMakeFiles/Makefile2 src/PhysicalDimension/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f CMakeFiles/Makefile2 src/PhysicalDimension/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named gmock
+# Convenience name for target.
+src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/rule:
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f CMakeFiles/Makefile2 src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/rule
+.PHONY : src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/rule
 
-# Build rule for target.
-gmock: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gmock
-.PHONY : gmock
-
-# fast build rule for target.
-gmock/fast:
-	$(MAKE) -f test/CMakeFiles/gmock.dir/build.make test/CMakeFiles/gmock.dir/build
-.PHONY : gmock/fast
-
-#=============================================================================
-# Target rules for targets named gtest
-
-# Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gtest
-.PHONY : gtest
-
-# fast build rule for target.
-gtest/fast:
-	$(MAKE) -f test/CMakeFiles/gtest.dir/build.make test/CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
-
-#=============================================================================
-# Target rules for targets named UT_Quantity
-
-# Build rule for target.
-UT_Quantity: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UT_Quantity
-.PHONY : UT_Quantity
-
-# fast build rule for target.
-UT_Quantity/fast:
-	$(MAKE) -f test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/build.make test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/build
-.PHONY : UT_Quantity/fast
-
-#=============================================================================
-# Target rules for targets named libPhysicalDimension
-
-# Build rule for target.
-libPhysicalDimension: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libPhysicalDimension
+# Convenience name for target.
+libPhysicalDimension: src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/rule
 .PHONY : libPhysicalDimension
 
 # fast build rule for target.
 libPhysicalDimension/fast:
-	$(MAKE) -f src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/build.make src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/build
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(MAKE) -f src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/build.make src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/build
 .PHONY : libPhysicalDimension/fast
 
 # Help Target
@@ -169,13 +131,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... libPhysicalDimension"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... gtest"
-	@echo "... gmock"
-	@echo "... UT_Quantity"
-	@echo "... libPhysicalDimension"
 .PHONY : help
 
 
@@ -187,6 +146,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/daniel/Workspace/UnitsOfMeasure/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

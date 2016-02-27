@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure/cmake_install.cmake")
+  include("/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/PhysicalDimension/cmake_install.cmake")
 
 endif()
 

@@ -1,2 +1,2 @@
-UT_Quantity 166 1.17644e-05
+UT_Quantity 3 0.000674963
 ---

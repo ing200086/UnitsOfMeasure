@@ -1,4 +1,4 @@
-# Install script for directory: /home/daniel/Workspace/UnitsOfMeasure/src
+# Install script for directory: /home/daniel/Workspace/UnitsOfMeasure/src/PhysicalDimension
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,11 +30,5 @@ endif()
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/daniel/Workspace/UnitsOfMeasure/build/src/PhysicalDimension/cmake_install.cmake")
-
 endif()
 

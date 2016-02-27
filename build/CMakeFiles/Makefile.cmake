@@ -14,9 +14,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "test/gmock/tmp/gmock-cfgcmd.txt.in"
   "test/gtest/tmp/gtest-cfgcmd.txt.in"
   "../src/CMakeLists.txt"
+  "../src/PhysicalDimension/CMakeLists.txt"
   "../test/CMakeLists.txt"
   "../test/Unit/CMakeLists.txt"
-  "../test/Unit/UnitsOfMeasure/CMakeLists.txt"
+  "../test/Unit/PhysicalDimension/CMakeLists.txt"
   "/usr/share/cmake-3.2/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.2/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake"
@@ -53,13 +54,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/Unit/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test/Unit/UnitsOfMeasure/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/Unit/PhysicalDimension/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/PhysicalDimension/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "test/CMakeFiles/gtest.dir/DependInfo.cmake"
   "test/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "test/Unit/UnitsOfMeasure/CMakeFiles/UT_Quantity.dir/DependInfo.cmake"
+  "test/Unit/PhysicalDimension/CMakeFiles/UT_Quantity.dir/DependInfo.cmake"
+  "src/PhysicalDimension/CMakeFiles/libPhysicalDimension.dir/DependInfo.cmake"
   )

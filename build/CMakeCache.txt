@@ -175,10 +175,22 @@ EquationSolver_BINARY_DIR:STATIC=/home/daniel/Workspace/UnitsOfMeasure/build
 EquationSolver_SOURCE_DIR:STATIC=/home/daniel/Workspace/UnitsOfMeasure
 
 //Value Computed by CMake
-UT_Quantity_BINARY_DIR:STATIC=/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure
+PhysicalDimension_BINARY_DIR:STATIC=/home/daniel/Workspace/UnitsOfMeasure/build/src/PhysicalDimension
+
+//Dependencies for target
+PhysicalDimension_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
-UT_Quantity_SOURCE_DIR:STATIC=/home/daniel/Workspace/UnitsOfMeasure/test/Unit/UnitsOfMeasure
+PhysicalDimension_SOURCE_DIR:STATIC=/home/daniel/Workspace/UnitsOfMeasure/src/PhysicalDimension
+
+//Value Computed by CMake
+UT_Quantity_BINARY_DIR:STATIC=/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/PhysicalDimension
+
+//Value Computed by CMake
+UT_Quantity_SOURCE_DIR:STATIC=/home/daniel/Workspace/UnitsOfMeasure/test/Unit/PhysicalDimension
+
+//Dependencies for target
+libPhysicalDimension_LIB_DEPENDS:STATIC=
 
 
 ########################
@@ -279,7 +291,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=5
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

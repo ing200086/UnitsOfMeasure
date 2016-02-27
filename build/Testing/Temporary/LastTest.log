@@ -1,36 +1,28 @@
-Start testing: Feb 21 21:43 CST
+Start testing: Feb 27 07:00 CST
 ----------------------------------------------------------
 1/1 Testing: UT_Quantity
 1/1 Test: UT_Quantity
-Command: "/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure/UT_Quantity"
-Directory: /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/UnitsOfMeasure
-"UT_Quantity" start time: Feb 21 21:43 CST
+Command: "/home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/PhysicalDimension/UT_Quantity"
+Directory: /home/daniel/Workspace/UnitsOfMeasure/build/test/Unit/PhysicalDimension
+"UT_Quantity" start time: Feb 27 07:00 CST
 Output:
 ----------------------------------------------------------
-[==========] Running 18 tests from 2 test cases.
+[==========] Running 14 tests from 2 test cases.
 [----------] Global test environment set-up.
-[----------] 10 tests from Dimensions
-[ RUN      ] Dimensions.AreDimensionallyEquivalentToItself
-[       OK ] Dimensions.AreDimensionallyEquivalentToItself (0 ms)
-[ RUN      ] Dimensions.AreDimensionallyEquivalent
-[       OK ] Dimensions.AreDimensionallyEquivalent (0 ms)
-[ RUN      ] Dimensions.AreDimensionallyNotEquivalent
-[       OK ] Dimensions.AreDimensionallyNotEquivalent (0 ms)
+[----------] 6 tests from Dimensions
+[ RUN      ] Dimensions.AreComparible
+[       OK ] Dimensions.AreComparible (0 ms)
 [ RUN      ] Dimensions.AssignOneDimensionBasedOnOther
 [       OK ] Dimensions.AssignOneDimensionBasedOnOther (0 ms)
-[ RUN      ] Dimensions.OfEquivalentPowersCanBeAddedToProduceSameEquivalent
-[       OK ] Dimensions.OfEquivalentPowersCanBeAddedToProduceSameEquivalent (0 ms)
-[ RUN      ] Dimensions.OfNonEquivalentPowersCannotBeAdded
-[       OK ] Dimensions.OfNonEquivalentPowersCannotBeAdded (1 ms)
-[ RUN      ] Dimensions.OfEquivalentPowersCanBeSubtractedToProduceSameEquivalent
-[       OK ] Dimensions.OfEquivalentPowersCanBeSubtractedToProduceSameEquivalent (0 ms)
-[ RUN      ] Dimensions.OfNonEquivalentPowersCannotBeSubtracted
-[       OK ] Dimensions.OfNonEquivalentPowersCannotBeSubtracted (0 ms)
-[ RUN      ] Dimensions.MultipliedWillSumThePowersOfBothUnits
-[       OK ] Dimensions.MultipliedWillSumThePowersOfBothUnits (0 ms)
-[ RUN      ] Dimensions.DividedWillSubtractTheSecondFactorUnitsFromTheFirstFactor
-[       OK ] Dimensions.DividedWillSubtractTheSecondFactorUnitsFromTheFirstFactor (0 ms)
-[----------] 10 tests from Dimensions (1 ms total)
+[ RUN      ] Dimensions.OfEquivalentPowersCanBeAddedOrSubtractedProducingSamePowers
+[       OK ] Dimensions.OfEquivalentPowersCanBeAddedOrSubtractedProducingSamePowers (0 ms)
+[ RUN      ] Dimensions.OfNonEquivalentPowersCannotBeAddedOrSubtracted
+[       OK ] Dimensions.OfNonEquivalentPowersCannotBeAddedOrSubtracted (0 ms)
+[ RUN      ] Dimensions.CanBeMultipliedOrDivided
+[       OK ] Dimensions.CanBeMultipliedOrDivided (0 ms)
+[ RUN      ] Dimensions.CanSquareOrSquareRoot
+[       OK ] Dimensions.CanSquareOrSquareRoot (0 ms)
+[----------] 6 tests from Dimensions (1 ms total)
 
 [----------] 8 tests from CreateBasicDimension
 [ RUN      ] CreateBasicDimension.Unitless
@@ -52,14 +44,14 @@ Output:
 [----------] 8 tests from CreateBasicDimension (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 18 tests from 2 test cases ran. (1 ms total)
-[  PASSED  ] 18 tests.
+[==========] 14 tests from 2 test cases ran. (1 ms total)
+[  PASSED  ] 14 tests.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"UT_Quantity" end time: Feb 21 21:43 CST
+"UT_Quantity" end time: Feb 27 07:00 CST
 "UT_Quantity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 21 21:43 CST
+End testing: Feb 27 07:00 CST

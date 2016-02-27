@@ -1,0 +1,2 @@
+/usr/bin/ar cq libPhysicalDimension.a  
+/usr/bin/ranlib libPhysicalDimension.a
